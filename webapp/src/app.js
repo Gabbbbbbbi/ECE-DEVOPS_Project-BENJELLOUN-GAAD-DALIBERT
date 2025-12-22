@@ -6,7 +6,7 @@ const app = express();
 // Serve static files (CV image)
 app.use("/static", express.static(path.join(__dirname, "../public")));
 
-// Home page → display CV image
+// Home page display CV image
 app.get("/", (req, res) => {
   res.status(200).send(`
     <!DOCTYPE html>
@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
         </style>
       </head>
       <body>
-        <img src="/static/cv.jpg" alt="CV Amine Slaoui" />
+        <img src="/static/CV.jpg" alt="CV Kamil Benjelloun" />
       </body>
     </html>
   `);
