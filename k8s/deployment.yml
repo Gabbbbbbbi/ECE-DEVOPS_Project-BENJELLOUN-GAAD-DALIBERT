@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-webapp
+  template:
+    metadata:
+      labels:
+        app: devops-webapp
+    spec:
+      containers:
+        - name: devops-webapp
+          image: rayangaad03/devops-webapp:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
