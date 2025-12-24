@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Vagrant
+.vagrant/
+iac/.vagrant/
+**/.vagrant/
+
+# OS
+.DS_Store
+Thumbs.db
