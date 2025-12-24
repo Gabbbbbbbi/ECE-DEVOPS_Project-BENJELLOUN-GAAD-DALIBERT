@@ -93,12 +93,12 @@ npm test
 ```
 Expected Output:
 
-PASS test/app.test.js GET / should return CV page with correct image path GET /health should return status ok
+PASS test/app.test.js GET / should return CV page with correct image path GET /   health should return status ok
 
 ## Author
 
-**Kamil Benjelloun**
-**Rayan Gaad**
+**Kamil Benjelloun /**
+**Rayan Gaad /**
 **Gabriel Dalibert**
 
 * **Project:** DevOps Project
